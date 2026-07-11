@@ -1,79 +1,28 @@
 name: Weekly Instagram Analysis
 
-
-
 on:
-
   schedule:
-  
     # 毎週土曜 9:00 JST (0:00 UTC)
-    
     - cron: '0 0 * * 6'
-    
   workflow_dispatch: # 手動実行用
-  
-
 
 jobs:
-
   analyze:
-  
     runs-on: ubuntu-latest
-    
     steps:
-    
       - name: Checkout code
-      
         uses: actions/checkout@v4
-        
-
 
       - name: Set up Python
-      
         uses: actions/setup-python@v5
-        
         with:
-        
           python-version: '3.11'
-          
-
 
       - name: Install dependencies
-      
         run: |
-        
           pip install requests python-dotenv
-          
-
 
       - name: Run Manus Analysis Task
-      
         env:
-        
           MANUS_API_KEY: ${{ secrets.MANUS_API_KEY }}
-          
-          PROJECT_ID: "QHqE4YjryiavLiJayKd6wD" # ティーダ建築工房インスタ代行
-          
         run: python scripts/request_analysis.py
-        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
