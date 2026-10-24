@@ -1,0 +1,682 @@
+{
+  "metadata": {
+    "title": "@tiida_saga Instagram weekly analysis source data",
+    "author": "Manus AI",
+    "acquired_on_jst": "2026-10-24",
+    "target_period_jst": {
+      "start_inclusive": "2026-10-17T00:00:00+09:00",
+      "end_exclusive": "2026-10-24T00:00:00+09:00"
+    },
+    "data_scope": "親エージェントが取得した自社の認証済みInstagram APIデータと、個別調査担当が公開プロフィール・投稿URLを閲覧した9競合の調査結果。検索スニペットのみの情報は週次実績に使用しない。",
+    "owned_account_in_scope": "@tiida_saga",
+    "excluded_owned_account": "@kazu_ai_terasu（別の自社アカウント。本分析・比較・投稿案の対象外）",
+    "privacy_cleanup": "CDN URL、owner ID、メディアID等の不要な識別子を保存していない。投稿・プロフィールの参照URLのみを根拠として保持する。",
+    "null_semantics": "null は未取得・未検証を意味し、0 を意味しない。"
+  },
+  "accounts": [
+    {
+      "account": "@tiida_saga",
+      "relationship": "owned_target",
+      "followers": 565,
+      "status": "complete_from_provided_authenticated_api_data",
+      "week_coverage": "提供された直近20投稿と7投稿分のlifetime insightsから対象週2件を確認。画像・動画そのものは未視認。",
+      "weekly_post_count": 2,
+      "posts": [
+        {
+          "date_jst": "2026-10-19",
+          "timestamp_jst": "2026-10-19T23:11:43+09:00",
+          "format": "フィード・カルーセル",
+          "theme": "帰宅時の玄関動線、荷物の仮置き・収納先",
+          "hook": "帰ってきたとき、荷物はどこで止まりますか？",
+          "structure_observation": "問いかけ→通る場所・荷物の置き場・収納先の3点整理→家族でメモする価値→保存CTA。画像の視覚構成は未確認。",
+          "cta": "保存して見返す",
+          "hashtags": [
+            "#ティーダ建築工房",
+            "#玄関",
+            "#家づくり",
+            "#リフォーム",
+            "#暮らしの動線"
+          ],
+          "likes": 4,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0,
+          "interactions": 4,
+          "lifetime_reach": 37,
+          "lifetime_views": 149,
+          "url": "https://www.instagram.com/p/DercF03keUp/"
+        },
+        {
+          "date_jst": "2026-10-21",
+          "timestamp_jst": "2026-10-21T07:33:46+09:00",
+          "format": "リール",
+          "theme": "荷物を持ったまま玄関を通る帰宅動線",
+          "hook": "荷物を持ったまま、玄関を通れますか？",
+          "structure_observation": "問いかけ→荷物を運ぶ状況→通路・仮置き場所を考える3つの質問→写真付きDM相談への誘導。動画の視覚構成は未確認。",
+          "cta": "玄関全体の写真1枚と困る場面をDMで共有",
+          "hashtags": [
+            "#ティーダ建築工房",
+            "#玄関",
+            "#家づくり",
+            "#リフォーム",
+            "#暮らしの動線"
+          ],
+          "likes": 2,
+          "comments": 0,
+          "saves": 0,
+          "shares": 0,
+          "interactions": 2,
+          "lifetime_reach": 161,
+          "lifetime_views": 187,
+          "url": "https://www.instagram.com/reel/Deu6b7MAXqZ/"
+        }
+      ],
+      "previous_week_comparison": {
+        "period_jst": "2026-10-10T00:00:00+09:00 to 2026-10-17T00:00:00+09:00 (end exclusive)",
+        "post_count": 5,
+        "format_counts": {
+          "reel": 3,
+          "carousel": 2
+        },
+        "metrics": {
+          "likes": 21,
+          "comments": 0,
+          "saves": 1,
+          "shares": 0,
+          "interactions": 22,
+          "lifetime_reach_sum": 1579,
+          "lifetime_views_sum": 2020,
+          "interaction_rate_by_reach_sum_percent": 1.393287
+        },
+        "posts": [
+          {
+            "date_jst": "2026-10-11",
+            "timestamp_jst": "2026-10-11T13:52:31+09:00",
+            "format": "リール",
+            "theme": "玄関まわりの確認・養生",
+            "likes": 7,
+            "comments": 0,
+            "saves": 1,
+            "shares": 0,
+            "interactions": 8,
+            "lifetime_reach": 1193,
+            "lifetime_views": 1426,
+            "url": "https://www.instagram.com/reel/DeVzwIODd9x/"
+          },
+          {
+            "date_jst": "2026-10-12",
+            "timestamp_jst": "2026-10-12T20:23:43+09:00",
+            "format": "リール",
+            "theme": "窓・玄関の不具合相談前チェック",
+            "likes": 3,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "interactions": 3,
+            "lifetime_reach": 163,
+            "lifetime_views": 186,
+            "url": "https://www.instagram.com/reel/DeZHIFqjFqR/"
+          },
+          {
+            "date_jst": "2026-10-13",
+            "timestamp_jst": "2026-10-13T22:36:36+09:00",
+            "format": "フィード・カルーセル",
+            "theme": "壁を閉じる前の配置確認",
+            "likes": 3,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "interactions": 3,
+            "lifetime_reach": 54,
+            "lifetime_views": 147,
+            "url": "https://www.instagram.com/p/Deb7LdQkRWZ/"
+          },
+          {
+            "date_jst": "2026-10-14",
+            "timestamp_jst": "2026-10-14T22:00:57+09:00",
+            "format": "フィード・カルーセル",
+            "theme": "洗面の置き場整理",
+            "likes": 4,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "interactions": 4,
+            "lifetime_reach": 35,
+            "lifetime_views": 109,
+            "url": "https://www.instagram.com/p/DeecO-_FJEY/"
+          },
+          {
+            "date_jst": "2026-10-15",
+            "timestamp_jst": "2026-10-15T22:20:22+09:00",
+            "format": "リール",
+            "theme": "コンセント位置を使う物から考える",
+            "likes": 4,
+            "comments": 0,
+            "saves": 0,
+            "shares": 0,
+            "interactions": 4,
+            "lifetime_reach": 134,
+            "lifetime_views": 152,
+            "url": "https://www.instagram.com/reel/DehDP8AgK3t/"
+          }
+        ]
+      },
+      "current_week_metrics": {
+        "format_counts": {
+          "reel": 1,
+          "carousel": 1
+        },
+        "likes": 6,
+        "comments": 0,
+        "saves": 0,
+        "shares": 0,
+        "interactions": 6,
+        "lifetime_reach_sum": 198,
+        "lifetime_views_sum": 336,
+        "interaction_rate_by_reach_sum_percent": 3.030303,
+        "format_interaction_rate_by_reach_sum_percent": {
+          "reel": 1.242236,
+          "carousel": 10.810811
+        }
+      },
+      "limitations": [
+        "reach と views は投稿別のlifetime累積値で、投稿間に重複する閲覧者・アカウントを含みうる。週間ユニーク値ではない。",
+        "投稿ごとの公開後経過時間が異なるため、前週との数値差は厳密な週間増減ではない。",
+        "画像・動画の表紙、冒頭映像、画面構成は未視認で、構成観察はキャプションのみ。"
+      ],
+      "sources": [
+        {
+          "title": "@tiida_saga プロフィール",
+          "url": "https://www.instagram.com/tiida_saga/",
+          "access_status": "提供された認証済みAPI入力を主根拠とし、追加の公開ページ閲覧は未実施"
+        },
+        {
+          "title": "2026-10-19 カルーセル：帰宅後の荷物の置き場",
+          "url": "https://www.instagram.com/p/DercF03keUp/",
+          "access_status": "提供された認証済みAPI入力で投稿情報・lifetime insightsを確認"
+        },
+        {
+          "title": "2026-10-21 リール：玄関の帰宅動線",
+          "url": "https://www.instagram.com/reel/Deu6b7MAXqZ/",
+          "access_status": "提供された認証済みAPI入力で投稿情報・lifetime insightsを確認"
+        }
+      ],
+      "profile_post_count": 317,
+      "insights_acquisition": "親エージェントが2026-10-24 JSTに @tiida_saga の認証済みInstagramコネクタで取得したaccount_info、get_post_list 20件、get_post_insights 7件。",
+      "account_window_metrics_not_retrieved": [
+        "アカウント単位の期間別ユニークリーチ",
+        "フォロワー増減",
+        "プロフィール遷移",
+        "DM相談件数",
+        "ストーリーズ実績",
+        "リール視聴維持率"
+      ]
+    },
+    {
+      "account": "@kicocochi_kobo",
+      "relationship": "competitor",
+      "followers": 3020,
+      "status": "partial_access_no_verified_posts_in_week",
+      "weekly_post_count": null,
+      "week_coverage": "公開プロフィールは10/14投稿まで表示。対象週の全件取得根拠がないため、対象週投稿数は未確認。",
+      "posts": [],
+      "out_of_period_context": [
+        {
+          "date_jst": "2026-10-14",
+          "theme": "構造見学会告知。完成後に見えない構造・性能・八女杉・職人技を説明し、予約CTA。",
+          "likes": 53,
+          "comments": 0,
+          "hashtags": [
+            "#木ここち建築工房",
+            "#八女市星野村の工務店",
+            "#構造見学会",
+            "#筑後市"
+          ],
+          "timestamp_jst": null,
+          "url": "https://www.instagram.com/p/Ded7KsBmjgY/"
+        },
+        {
+          "date_jst": "2026-10-14",
+          "theme": "造作洗面の紹介。収納・素材感・日常動作の使いやすさを説明。",
+          "likes": 27,
+          "comments": 0,
+          "hashtags": [
+            "#木ここち建築工房",
+            "#八女市星野村の工務店",
+            "#フルリノベーション",
+            "#造作洗面"
+          ],
+          "timestamp_jst": null,
+          "url": "https://www.instagram.com/p/Ded6hE5GipM/"
+        }
+      ],
+      "limitations": [
+        "対象週の投稿内容・いいね・コメント・ハッシュタグ・投稿日時は未取得。投稿なしとは判断しない。",
+        "検索に出た10/23リール候補は別投稿者であり除外。"
+      ],
+      "sources": [
+        {
+          "title": "木ここち建築工房 Instagramプロフィール",
+          "url": "https://www.instagram.com/kicocochi_kobo/",
+          "access_status": "プロフィールと部分的な投稿一覧を取得。週内全件取得不可"
+        }
+      ]
+    },
+    {
+      "account": "@placehome",
+      "relationship": "competitor",
+      "followers": 3402,
+      "status": "verified_profile_listing_three_week_posts",
+      "weekly_post_count": 3,
+      "week_coverage": "プロフィール一覧で10/23、10/20、10/17の次が10/16と確認。表示範囲上の対象週3件。",
+      "posts": [
+        {
+          "date_jst": "2026-10-17",
+          "timestamp_jst": null,
+          "format": "写真投稿",
+          "theme": "約29坪の平屋、玄関土間・和室・リビングと完成見学会",
+          "likes": 16,
+          "comments": 0,
+          "hashtags": [
+            "#佐賀注文住宅",
+            "#福岡注文住宅",
+            "#モダンな外観",
+            "#平屋",
+            "#収納"
+          ],
+          "cta": "公式サイトから見学会予約",
+          "url": "https://www.instagram.com/placehome/p/DelvKMFE4Wz/"
+        },
+        {
+          "date_jst": "2026-10-20",
+          "timestamp_jst": null,
+          "format": "写真投稿",
+          "theme": "約29坪の平屋の洋室・バルコニー・パントリーと相談予約",
+          "likes": 20,
+          "comments": 0,
+          "hashtags": [
+            "#佐賀注文住宅",
+            "#福岡注文住宅",
+            "#パントリー",
+            "#平屋",
+            "#バルコニー"
+          ],
+          "cta": "公式サイトから来場予約",
+          "url": "https://www.instagram.com/placehome/p/Detao5OEyRL/"
+        },
+        {
+          "date_jst": "2026-10-23",
+          "timestamp_jst": null,
+          "format": "写真投稿",
+          "theme": "約29坪平屋のリビング・ウォークインクローゼットと無添加しっくい",
+          "likes": 7,
+          "comments": 0,
+          "hashtags": [
+            "#佐賀注文住宅",
+            "#福岡注文住宅",
+            "#ウォークイン",
+            "#平屋",
+            "#ldk"
+          ],
+          "cta": "完成見学会の相談・来場予約",
+          "url": "https://www.instagram.com/placehome/p/De1IezVEwAD/"
+        }
+      ],
+      "limitations": [
+        "投稿時刻、保存、リーチ、シェア、閲覧数は未取得。画像は視認せず、構成はキャプション観察に限る。"
+      ],
+      "sources": [
+        {
+          "title": "placehome Instagramプロフィール",
+          "url": "https://www.instagram.com/placehome/",
+          "access_status": "プロフィール・一覧を取得"
+        }
+      ]
+    },
+    {
+      "account": "@eda_kensetsu",
+      "relationship": "competitor",
+      "followers": 1430,
+      "status": "partial_access_week_unverified",
+      "weekly_post_count": null,
+      "week_coverage": "プロフィール一覧の最新表示は10/15。対象週全件の確認根拠がないため未確認。",
+      "posts": [],
+      "out_of_period_context": [
+        {
+          "date_jst": "2026-10-15",
+          "timestamp_jst": null,
+          "format": "写真投稿",
+          "theme": "施工中と完成後のリビングを見比べ、工程・自然素材・職人技を説明",
+          "likes": 63,
+          "comments": 0,
+          "hashtags": [
+            "#家づくり",
+            "#職人技",
+            "#大工",
+            "#手仕事",
+            "#木の家"
+          ],
+          "url": "https://www.instagram.com/eda_kensetsu/p/DeiffMIlPRp/"
+        },
+        {
+          "date_jst": "2026-10-09",
+          "timestamp_jst": null,
+          "format": "リール",
+          "theme": "高校生の職場体験で継ぎ手づくり",
+          "likes": 52,
+          "comments": 0,
+          "hashtags": [
+            "#職場体験",
+            "#高校生",
+            "#大工仕事",
+            "#職人の技",
+            "#若手大工"
+          ],
+          "url": "https://www.instagram.com/eda_kensetsu/reel/DeRKdNOSF8c/"
+        }
+      ],
+      "limitations": [
+        "対象週の投稿内容・いいね・コメント・ハッシュタグ・投稿日時は未取得。投稿なしとは判断しない。",
+        "検索スニペットだけの過去年投稿は対象週データに採用しない。"
+      ],
+      "sources": [
+        {
+          "title": "江田建設 Instagramプロフィール",
+          "url": "https://www.instagram.com/eda_kensetsu/",
+          "access_status": "プロフィール取得。週内全件性は未確認"
+        }
+      ]
+    },
+    {
+      "account": "@irodori8223",
+      "relationship": "competitor",
+      "followers": 770,
+      "status": "verified_profile_listing_four_week_posts",
+      "weekly_post_count": 4,
+      "week_coverage": "プロフィール一覧で10/22、10/21、10/20、10/19の次が10/14。表示範囲上の対象週4件。",
+      "posts": [
+        {
+          "date_jst": "2026-10-19",
+          "timestamp_jst": null,
+          "format": "写真投稿",
+          "theme": "大牟田市のガレージ付き平屋、土台敷・上棟準備と台風への懸念",
+          "likes": 22,
+          "comments": 0,
+          "hashtags": [
+            "#大牟田市注文住宅",
+            "#平屋",
+            "#ガレージのある家",
+            "#工務店",
+            "#工務店がつくる家"
+          ],
+          "cta": "明示的なCTAなし",
+          "url": "https://www.instagram.com/irodori8223/p/Deq6wXjE-mo/"
+        },
+        {
+          "date_jst": "2026-10-20",
+          "timestamp_jst": null,
+          "format": "写真投稿",
+          "theme": "六合の平屋、ウォールナットのオーダーキッチンと北欧家具",
+          "likes": 20,
+          "comments": 0,
+          "hashtags": [
+            "#ldk",
+            "#ダイニング",
+            "#キッチン",
+            "#オーダーキッチン",
+            "#北欧家具"
+          ],
+          "cta": "明示的なCTAなし",
+          "url": "https://www.instagram.com/irodori8223/p/DetiQm2EjtG/"
+        },
+        {
+          "date_jst": "2026-10-21",
+          "timestamp_jst": null,
+          "format": "写真投稿",
+          "theme": "久留米市の平屋、準防火仕様と自然素材の内装仕上げ",
+          "likes": 26,
+          "comments": 0,
+          "hashtags": [
+            "#自然素材",
+            "#自然素材の家",
+            "#自然素材の家づくり",
+            "#自然素材クロス",
+            "#久留米市注文住宅"
+          ],
+          "cta": "明示的なCTAなし",
+          "url": "https://www.instagram.com/irodori8223/p/DewIIZIE-rf/"
+        },
+        {
+          "date_jst": "2026-10-22",
+          "timestamp_jst": null,
+          "format": "写真投稿",
+          "theme": "台風接近に伴う上棟延期と現場の台風対策",
+          "likes": 25,
+          "comments": 0,
+          "hashtags": [
+            "#台風",
+            "#台風対策",
+            "#工務店",
+            "#工務店探し",
+            "#工務店がつくる家"
+          ],
+          "cta": "明示的なCTAなし",
+          "url": "https://www.instagram.com/irodori8223/p/Deyu_ZZE7Td/"
+        }
+      ],
+      "limitations": [
+        "投稿時刻、保存、リーチ、シェア、閲覧数は未取得。画像は視認せず、構成はキャプション観察に限る。",
+        "10/8の検索スニペット由来投稿は個別未確認のため対象週データに採用しない。"
+      ],
+      "sources": [
+        {
+          "title": "彩 irodori Instagramプロフィール",
+          "url": "https://www.instagram.com/irodori8223/",
+          "access_status": "プロフィール・対象投稿ページを取得"
+        }
+      ]
+    },
+    {
+      "account": "@torikaihome",
+      "relationship": "competitor",
+      "followers": 2345,
+      "status": "partial_access_three_observed_week_posts",
+      "weekly_post_count": null,
+      "week_coverage": "10/18、10/20、10/22の3件を確認したが、一覧の全件性を保証できないため週投稿総数は未確認。",
+      "posts": [
+        {
+          "date_jst": "2026-10-18",
+          "timestamp_jst": null,
+          "format": "写真投稿",
+          "theme": "木天井のダイニングで食後のお茶を楽しむ暮らし",
+          "likes": 18,
+          "comments": 0,
+          "hashtags": [
+            "#トリカイホーム",
+            "#佐賀注文住宅",
+            "#木の天井",
+            "#ダイニングのある暮らし"
+          ],
+          "cta": "プロフィールまたはHPイベントページへ",
+          "url": "https://www.instagram.com/torikaihome/p/DeqPmIYkbPD/"
+        },
+        {
+          "date_jst": "2026-10-20",
+          "timestamp_jst": null,
+          "format": "写真投稿",
+          "theme": "窓辺の造作カウンター、家族のワークスペース",
+          "likes": 12,
+          "comments": 0,
+          "hashtags": [
+            "#トリカイホーム",
+            "#佐賀注文住宅",
+            "#造作カウンター",
+            "#ワークスペース"
+          ],
+          "cta": "プロフィールまたはHPイベントページへ",
+          "url": "https://www.instagram.com/torikaihome/p/DevZGz5kby1/"
+        },
+        {
+          "date_jst": "2026-10-22",
+          "timestamp_jst": null,
+          "format": "写真投稿",
+          "theme": "玄関そばの手洗いと造作洗面台",
+          "likes": 11,
+          "comments": 0,
+          "hashtags": [
+            "#トリカイホーム",
+            "#佐賀注文住宅",
+            "#玄関手洗い",
+            "#造作洗面台"
+          ],
+          "cta": "プロフィールまたはHPイベントページへ",
+          "url": "https://www.instagram.com/torikaihome/p/De0ire7EY11/"
+        }
+      ],
+      "limitations": [
+        "投稿時刻、保存、リーチ、シェア、閲覧数は未取得。画像は視認せず、構成はキャプション観察に限る。"
+      ],
+      "sources": [
+        {
+          "title": "@torikaihome Instagramプロフィール",
+          "url": "https://www.instagram.com/torikaihome/",
+          "access_status": "プロフィール・対象投稿ページを取得。週内全件性は未確認"
+        }
+      ]
+    },
+    {
+      "account": "@inouehousing",
+      "relationship": "competitor",
+      "followers": 1046,
+      "status": "partial_access_one_observed_week_post",
+      "weekly_post_count": null,
+      "week_coverage": "10/20の1件を確認したが、週内全件の根拠が不足するため週投稿総数は未確認。",
+      "posts": [
+        {
+          "date_jst": "2026-10-20",
+          "timestamp_jst": null,
+          "format": "写真投稿",
+          "theme": "グレー基調とブラックアイアンの吹き抜け住宅。視線の抜け・収納・子育てのしやすさ。",
+          "likes": 22,
+          "comments": null,
+          "comments_note": "ページに No comments yet の表示はあったが、構造化コメント数は未取得。",
+          "hashtags": [
+            "#新築",
+            "#注文住宅福岡",
+            "#のびやか",
+            "#ダイナミック",
+            "#グレー",
+            "#吹き抜け",
+            "#リビング",
+            "#階段",
+            "#主役",
+            "#アイアン",
+            "#デザイン",
+            "#収納",
+            "#洗練された",
+            "#赤間建築設計事務所",
+            "#イノウエハウジング"
+          ],
+          "cta": "明示的なCTAなし",
+          "url": "https://www.instagram.com/inouehousing/p/DetyGp9DT90/"
+        }
+      ],
+      "limitations": [
+        "投稿時刻、保存、リーチ、シェア、閲覧数は未取得。画像は視認せず、構成はキャプション観察に限る。",
+        "8/12リールは対象週外。"
+      ],
+      "sources": [
+        {
+          "title": "イノウエハウジング Instagramプロフィール",
+          "url": "https://www.instagram.com/inouehousing/",
+          "access_status": "プロフィール・対象投稿ページを取得。週内全件性は未確認"
+        }
+      ]
+    },
+    {
+      "account": "@rokka_staff",
+      "relationship": "competitor",
+      "followers": 476,
+      "status": "insufficient_data_for_weekly_analysis",
+      "weekly_post_count": null,
+      "week_coverage": "表示された直近投稿は9/4等の対象週外。対象週全件の取得根拠がない。",
+      "posts": [],
+      "limitations": [
+        "対象週の投稿内容・いいね・コメント・ハッシュタグ・投稿日時は未取得。投稿なしとは判断しない。",
+        "検索インデックスの古いプロフィール断片は現行プロフィール表示と不一致のため採用しない。"
+      ],
+      "sources": [
+        {
+          "title": "六花スタッフ Instagramプロフィール",
+          "url": "https://www.instagram.com/rokka_staff/",
+          "access_status": "プロフィールと古い一覧の一部を取得。週内投稿の全件確認不可"
+        }
+      ]
+    },
+    {
+      "account": "@hooop.inc",
+      "relationship": "competitor",
+      "followers": 1400,
+      "status": "insufficient_data_for_weekly_analysis",
+      "weekly_post_count": null,
+      "week_coverage": "プロフィールは取得したが、対象週の個別投稿を特定・検証できず。",
+      "posts": [],
+      "limitations": [
+        "対象週の投稿内容・いいね・コメント・ハッシュタグ・投稿日時は未取得。投稿なしとは判断しない。",
+        "2024年・2025年の検索スニペットは未検証であり、現在データ・週次集計に採用しない。"
+      ],
+      "sources": [
+        {
+          "title": "@hooop.inc Instagramプロフィール",
+          "url": "https://www.instagram.com/hooop.inc/",
+          "access_status": "プロフィールは取得。対象週投稿は確認できず"
+        }
+      ]
+    },
+    {
+      "account": "@eternal_designlife",
+      "relationship": "competitor",
+      "followers": 599,
+      "status": "insufficient_data_for_weekly_analysis",
+      "weekly_post_count": null,
+      "week_coverage": "公開プロフィールは取得したが、対象週内の個別投稿は確認できず、全件性も未確認。",
+      "posts": [],
+      "out_of_period_context": [
+        {
+          "date_jst": "2026-07-27",
+          "timestamp_jst": null,
+          "theme": "浜崎祇園祭への言及。ページ表示の日付と相対表示に齟齬があるため参考のみ。",
+          "likes": 47,
+          "comments": 0,
+          "hashtags": null,
+          "url": "https://www.instagram.com/eternal_designlife/p/DbSvm97CXse/"
+        },
+        {
+          "date_jst": "2025-04-03",
+          "timestamp_jst": null,
+          "theme": "畳からブラックチェリー挽板へのリフォーム",
+          "likes": 52,
+          "comments": 0,
+          "hashtags": null,
+          "url": "https://www.instagram.com/eternal_designlife/p/DIASfhlh_mQ/"
+        }
+      ],
+      "limitations": [
+        "対象週の投稿内容・いいね・コメント・ハッシュタグ・投稿日時は未取得。投稿なしとは判断しない。",
+        "古い投稿の日時表示に一部不整合があるため週次分析には使わない。"
+      ],
+      "sources": [
+        {
+          "title": "@eternal_designlife Instagramプロフィール",
+          "url": "https://www.instagram.com/eternal_designlife/",
+          "access_status": "プロフィールを取得。対象週投稿の全件確認不可"
+        }
+      ]
+    }
+  ],
+  "calculation_definitions": {
+    "interaction_rate": "投稿別lifetime reachの単純合計を分母とし、likes + comments + saves + shares で表される total interactions の単純合計を分子にする。式：interactions ÷ sum(lifetime reach) × 100。",
+    "comparison_caution": "reach・views は投稿別のlifetime累積値であり、同一アカウントの重複を含む可能性がある。投稿ごとの公開経過時間も異なるため、週次ユニークリーチや厳密な前週増減ではない。",
+    "public_like_rate": "投稿の公開いいね数 ÷ 取得時点のフォロワー数 × 100。reachベースの反応率と異なり、フォロワー以外の閲覧者の反応も含む。"
+  }
+}
